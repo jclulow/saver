@@ -6,5 +6,5 @@ edition = "2021"
 [dependencies]
 anyhow = "1.0.70"
 getopts = "0.2.21"
-termdraw = { version = "0.1.0", path = "../facade/termdraw" }
-facade-terminal = { path = "/ws/facade/terminal" }
+termdraw = { version = "0.1.0", git = "ssh://git@github.com/oxidecomputer/facade.git" }
+facade-terminal = { git = "ssh://git@github.com/oxidecomputer/facade.git" }
